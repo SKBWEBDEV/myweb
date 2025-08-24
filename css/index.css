@@ -1,0 +1,407 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+  line-height: .8;
+}
+
+.container{
+  max-width: 1290px;
+}
+
+/* ---------header part start--------- */
+
+#header{
+  background-color: #183354;
+  padding-top: 11px;
+}
+
+.list ul{
+  display: flex;
+  gap: 20px;
+}
+.list ul li a{
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+.header-wrapper{
+  justify-content: space-between;
+}
+.icon a i{
+  padding-right: 10px;
+  color: white;
+}
+
+
+/* ---------header part start--------- */
+
+
+/* ---------header part start--------- */
+
+.navbar{
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.41);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+   padding-left: 20px;
+   padding-right: 20px;
+   font-family: "Manrope", sans-serif;
+   font-size: 16px;
+   font-weight: 700;
+   color: #183354;
+   transition: all .5s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+ color: #F4796C;
+}
+.navbar-expand-lg .navbar-nav .first {
+   padding-left: 0;
+}
+.navbar-expand-lg .navbar-nav .last {
+   padding-right: 0;
+}
+
+/* ---------header part start--------- */
+
+
+/* ---------banner part start--------- */
+
+#banner{
+  background: url("../images/section5.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 315px;
+  padding-bottom: 60px;
+}
+
+.banner-text{
+  color: white;
+}
+.banner-text button{
+  background-color: #F4796C;
+  border: none;
+  border-radius: 3px;
+}
+.banner-text button a{
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+  padding: 4px 10px;
+  color: white;
+}
+.banner-text h3{
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+  line-height: 39px;
+  width: 604px;
+  margin-top: 15px;
+}
+.banner-text p{
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-top: 15px;
+  
+}
+.banner-text p span{
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+
+/* ---------banner part end--------- */
+
+/* ---------data part start------- */
+
+#data{
+  margin-top: 40px;
+}
+.content{
+  align-items: center;
+  
+}
+.for button a{
+  font-weight: 600;
+  font-size: 13px;
+  color: #6D757F;
+  font-family: "Inter", sans-serif;
+  padding: 5px 10px;
+}
+.for button{
+  border: 1px solid #B8C1CD;
+  background-color: white;
+  border-radius: 3px;
+}
+.for h3{
+  font-weight: 800;
+  font-size: 18px;
+  color: #183354;
+  font-family: "Manrope", sans-serif;
+  line-height: 25px;
+  width: 220px;
+  margin-top: 7px;
+}
+.for p{
+  font-weight: 600;
+  font-size: 13px;
+  color: #6D757F;
+  font-family: "Inter", sans-serif;
+  margin-top: 7px;
+}
+.for span{
+  margin-right: 5px;
+}
+
+/* ---------data part end--------- */
+
+
+/* ---------fest part start------- */
+
+#fest{
+  margin-top: 30px;
+}
+
+/* ---------fest part end--------- */
+
+
+/* ---------explor part start------- */
+
+#explor{
+  margin-top: 60px;
+}
+.explor-wrapper h3{
+  font-size: 28px;
+  font-weight: bold;
+  color: #183354;
+  font-family: "Manrope", sans-serif;
+
+}
+.button-two button{
+  background-color: white;
+  border: 1px solid #CFCFCF;
+  border-radius: 4px;
+}
+.button-two button a{
+  padding: 5px 30px 5px 18px;
+  color: #183354;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+
+}
+.button-two button a span{
+  margin-left: 7px;
+  color: #F4796C;
+}
+
+
+.user {
+  position: relative;
+}
+
+.button-three {
+  position: absolute;
+  content: '';
+  left: 100px;
+  top: 213px;
+}
+.button-three button{
+  background-color: #F4796C;
+  border-radius: 4px;
+  border: none;
+}
+.button-three button a{
+  padding: 4px 10px;
+  font-weight: 600;
+  font-size: 13px;
+  font-family: "Manrope", sans-serif;
+  color: white;
+}
+
+.user img{
+  margin-top: 30px;
+}
+.user h5{
+  padding-top: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  width: 228.15px;
+  line-height: 28px;
+  margin: 0 auto;
+}
+
+.user p{
+  color: #6D757F;
+  font-weight: 500;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  padding-top: 13px;
+}
+.user p span{
+  padding-right: 5px;
+}
+
+.user-middle{
+  position: relative;
+  margin-top: 30px;
+}
+
+.button-four {
+  position: absolute;
+  content: '';
+  left: 269px;
+  top: 372px;
+}
+.button-four button{
+  background-color: #F4796C;
+  border-radius: 4px;
+  border: none;
+}
+.button-four button a{
+  padding: 4px 10px;
+  font-weight: 600;
+  font-size: 13px;
+  font-family: "Manrope", sans-serif;
+  color: white;
+}
+.user-middle h4{
+  color: #183354;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  width: 580.6px;
+  font-family: "Manrope", sans-serif;
+  padding-top: 30px;
+}
+
+.user-middle p{
+  color: #6D757F;
+  font-weight: 500;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  padding-top: 10px;
+  width: 570px;
+}
+.user-middle p span i{
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.user-middle h6{
+  color: #545E69;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  width: 595.9px;
+}
+
+
+
+
+.known{
+  background-color: #D0D0D0;
+  padding-top: 215px;
+  padding-bottom: 40px;
+  margin-top: 30px;
+  border-radius: 6px;
+}
+.known h3{
+  color: #183354;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Manrope", sans-serif;
+}
+.known p{
+  color: #6D757F;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Manrope", sans-serif;
+  line-height: 24px;
+  width: 247.64px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.known i {
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 14.5px 18.41px 15.5px 18.75px;
+  background-color: white;
+  border-radius: 100%;
+  border: 1px solid #6D757F;
+  color: #183354;
+  margin-top: 20px;
+}
+
+.known{
+  position: relative;
+}
+.rosse {
+  position: absolute;
+  content: '';
+  left: 22%;
+  top: 20px;
+
+}
+.follow{
+  margin-top: 25px;
+}
+
+.user-icon-two a{
+  color: #183354;
+}
+.user-icon-two i{
+  padding-right: 10px;
+}
+.user-icon-two button{
+  width: 162px;
+  height: 44px;
+  background-color: #F0F0F0;
+  border-radius: 4px;
+  border: none;
+}
+.user-icon-two{
+  gap: 5px;
+  margin-top: 5px;
+}
+
+
+
+/* ---------explor part end--------- */
+
+
+/* ------places part start------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------places part end------- */
